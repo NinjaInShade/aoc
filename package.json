@@ -1,0 +1,26 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Advent of code submissions",
+  "exports": {},
+  "imports": {
+    "#src/*": "./*"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types main.ts",
+    "debug": "DEBUG=1 pnpm start"
+  },
+  "keywords": [
+    "Advent Of Code",
+    "AOC"
+  ],
+  "author": "Leon Michalak",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.10.1"
+  },
+  "engines": {
+    "node": ">=v23.3.0"
+  }
+}
