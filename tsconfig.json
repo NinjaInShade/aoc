@@ -2,7 +2,7 @@
     "compilerOptions": {
         "esModuleInterop": true,
         "skipLibCheck": true,
-        "target": "es2022",
+        "target": "es2023",
         "allowJs": true,
         "resolveJsonModule": true,
         "moduleDetection": "force",
@@ -14,7 +14,7 @@
         "outDir": "dist",
         "sourceMap": true,
         "lib": [
-            "es2022"
+            "es2023"
         ],
     }
 }
